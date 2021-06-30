@@ -16,3 +16,4 @@ use App\Http\Controllers\C_MainApp;
 */
 
 Route::get('/', [C_MainApp::class, 'dashboard']);
+Route::get('/beranda', [C_MainApp::class, 'beranda']);
